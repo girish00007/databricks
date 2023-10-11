@@ -56,4 +56,4 @@ jobs:
 
     - name: Run Analysis
 
-      run: python Mobile_Price_Prediction.py
+      run: python Girish_Assignment_3.5_Mobile_Price/Mobile_Price_Prediction.py
