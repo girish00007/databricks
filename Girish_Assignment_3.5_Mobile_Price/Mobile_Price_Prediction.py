@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-train_df=pd.read_csv("train.csv")
+train_df=pd.read_csv("Girish_Assignment_3.5_Mobile_Price/train.csv")
 train_df
 print(train_df.isnull().sum())
 sns.countplot(x='price_range', data=train_df)
@@ -93,7 +93,7 @@ print(f'Accuracy: {accuracy:.2f}')
 print('Classification Report:')
 print(classification_rep)
 prediction = logistic_reg.predict(X_test)
-test_df=pd.read_csv("test.csv")
+test_df=pd.read_csv("Girish_Assignment_3.5_Mobile_Price/test.csv")
 test_df
 test_df = test_df.drop(['id'], axis = 1)
 test_df.shape
