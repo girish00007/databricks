@@ -5,7 +5,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv('Girishassignment-3.6/50_Startups.csv') 
+df = pd.read_csv("Girishassignment-3.6/50_Startups.csv") 
 df.head()
 df.isnull().sum()
 sns.pairplot(df)
