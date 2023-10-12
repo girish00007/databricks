@@ -2,7 +2,7 @@ name: Plot Github Action
 on:
   push:
     branches:
-      - master  
+      - main  
 
  
 
@@ -36,7 +36,7 @@ jobs:
  
 
     - name: Run Analysis
-      run: python Girishassignment-3.6/Main.py 
+      run: python Girishassignment-3.6/main.py 
     - name: Save Plots as Artifacts
       uses: actions/upload-artifact@v2
       with:
