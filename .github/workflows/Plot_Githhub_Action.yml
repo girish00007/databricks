@@ -36,16 +36,15 @@ jobs:
  
 
     - name: Run Analysis
-      run: python Assignments/Daniya_Assignment_3.6_Plot_in_Github_Action/Main.py 
+      run: python Girishassignment-3.6/Main.py 
     - name: Save Plots as Artifacts
       uses: actions/upload-artifact@v2
       with:
           name: plots
           path: 
-           Assignments/Daniya_Assignment_3.6_Plot_in_Github_Action/plot_test_size_0.2.png
-           Assignments/Daniya_Assignment_3.6_Plot_in_Github_Action/plot_test_size_0.2.png
-           Assignments/Daniya_Assignment_3.6_Plot_in_Github_Action/plot_test_size_0.2.png
-
+           Girishassignment-3.6/plot_test_size_0_2.png
+           Girishassignment-3.6/plot_test_size_0_3.png
+           Girishassignment-3.6/plot_test_size_0_4.png
  
 
   
